@@ -12,6 +12,7 @@ int main()
     int q,w,e;
     for(q=0; q<10; q++)
         scanf("%d",&a[q]);
+    for(w=0;w<9; w++)
     for(q=0; q<9-w; q++)
     {
         if(a[q]>a[q+1])
@@ -22,7 +23,7 @@ int main()
         }
     }
     for(q=0;q<10;q++)
-        printf("%d",&a[q]);
+        printf("%d，",a[q]);
     printf("\n");
     return 0;
 
